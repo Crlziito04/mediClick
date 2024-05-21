@@ -1,0 +1,9 @@
+.vision::before,
+.vision2::before {
+  position: absolute;
+  content: "";
+  width: calc(100%); /* Ancho igual al ancho del contenedor + 40px de margen */
+  border-bottom: 5px rgb(27, 157, 75) solid;
+  bottom: -10px;
+  left: 0px; /* Alineado con el borde izquierdo del contenedor */
+}

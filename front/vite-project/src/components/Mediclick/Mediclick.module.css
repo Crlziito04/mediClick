@@ -1,0 +1,11 @@
+.mediclick {
+  background-image: url("../../assets/mediclick.webp");
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+@media (width > 768px) {
+  .mediclick {
+    background-size: 100% 100%;
+  }
+}

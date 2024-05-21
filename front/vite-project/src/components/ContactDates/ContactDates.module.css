@@ -1,0 +1,26 @@
+.google_map {
+  width: 90%;
+  height: 200px;
+  @media (min-width: 768px) {
+    width: 600px;
+    height: 300px;
+  }
+}
+
+.divBackGround {
+  background-image: repeating-linear-gradient(
+      135deg,
+      hsla(35, 0%, 71%, 0.09) 0px,
+      hsla(35, 0%, 71%, 0.09) 1px,
+      transparent 1px,
+      transparent 11px
+    ),
+    repeating-linear-gradient(
+      45deg,
+      hsla(35, 0%, 71%, 0.09) 0px,
+      hsla(35, 0%, 71%, 0.09) 1px,
+      transparent 1px,
+      transparent 11px
+    ),
+    linear-gradient(90deg, hsl(183, 0%, 100%), hsl(183, 0%, 100%));
+}

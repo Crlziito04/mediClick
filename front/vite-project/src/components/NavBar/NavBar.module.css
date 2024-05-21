@@ -1,0 +1,20 @@
+div > ion-icon {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  cursor: pointer;
+}
+a:hover,
+li div:hover {
+  color: rgb(107 114 128);
+}
+li {
+  position: relative;
+}
+.active span::before {
+  position: absolute;
+  content: "";
+  width: 75%;
+  border-bottom: 2px rgb(27, 157, 75) solid;
+  bottom: -2px;
+  left: 0;
+}
